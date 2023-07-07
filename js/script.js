@@ -48,7 +48,7 @@
     // -----------------------------
     //  Testimonial Slider
     // -----------------------------
-    $('.testimonial-slider').slick({
+    $.slick && $('.testimonial-slider').slick({
       slidesToShow: 2,
       infinite: true,
       arrows: false,
@@ -80,7 +80,7 @@
     //  Count Down JS
     // -----------------------------
     var syoTimer = $('#simple-timer');
-    if (syoTimer) {
+    if ($.syotimer && syoTimer) {
       $('#simple-timer').syotimer({
         year: 2023,
         month: 9,
@@ -94,7 +94,7 @@
     // -----------------------------
     //  Story Slider
     // -----------------------------
-    $('.about-slider').slick({
+    $.slick && $('.about-slider').slick({
       slidesToShow: 1,
       infinite: true,
       arrows: false,
@@ -107,7 +107,7 @@
     // -----------------------------
     //  Quote Slider
     // -----------------------------
-    $('.quote-slider').slick({
+    $.slick && $('.quote-slider').slick({
       slidesToShow: 1,
       infinite: true,
       arrows: false,
@@ -120,7 +120,7 @@
     // -----------------------------
     //  Client Slider
     // -----------------------------
-    $('.client-slider').slick({
+    $.slick && $('.client-slider').slick({
       slidesToShow: 4,
       infinite: true,
       arrows: false,
