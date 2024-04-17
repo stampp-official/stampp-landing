@@ -154,7 +154,7 @@ a {
 
 a:focus,
 a:hover {
-  color: #9013FE;
+  color: #003F5C;
   text-decoration: none;
 }
 
@@ -163,15 +163,15 @@ a:hover {
 }
 
 .bg-blue {
-  background: #9013FE;
+  background: #003F5C;
 }
 
 .text-gradient {
-  background: linear-gradient(45deg, #2DBDE4 0%, #8317DB 100%);
+  background: linear-gradient(45deg, #FFA600 0%, #FF6361 100%);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
-  color: #9013FE;
+  color: #003F5C;
 }
 
 .bg-1 {
@@ -251,7 +251,7 @@ a:hover {
   height: 125px;
   width: 125px;
   font-size: 40px;
-  background: #9013FE;
+  background: #003F5C;
   border-radius: 100%;
   color: #fff;
   line-height: 125px;
@@ -282,7 +282,7 @@ a:hover {
 }
 
 .form-control.main:focus {
-  border: 1px solid #9013FE;
+  border: 1px solid #003F5C;
   box-shadow: none;
 }
 
@@ -342,18 +342,33 @@ button:focus,
   text-transform: uppercase;
 }
 
+.btn-outline-primary {
+  color: #003F5C;
+  border-color: #003F5C;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:active,
+.btn-outline-primary:not(:disabled):not(.disabled).active,
+.btn-outline-primary:not(:disabled):not(.disabled):active,
+.show>.btn-outline-primary.dropdown-toggle {
+  background-color: #003F5C;
+  color: #fff;
+  border-color: #003F5C;
+}
+
 .btn-download {
   padding: 20px 35px;
   font-size: 14px;
   background: #fff;
-  color: #9013FE;
+  color: #003F5C;
 }
 
 .btn-download-sm {
   padding: 15px 35px;
   font-size: 14px;
   background: #fff;
-  color: #9013FE;
+  color: #003F5C;
 }
 
 .btn-download span {
@@ -364,7 +379,7 @@ button:focus,
 .btn-main {
   padding: 25px 45px;
   border-radius: 3px;
-  background: #9013FE;
+  background: #003F5C;
   color: #fff;
   outline: none;
 }
@@ -381,7 +396,7 @@ button:focus,
 .btn-main-md {
   padding: 17px 38px;
   border-radius: 3px;
-  background: #9013FE;
+  background: #003F5C;
   color: #fff;
   outline: none;
 }
@@ -398,7 +413,7 @@ button:focus,
 .btn-main-sm {
   padding: 15px 35px;
   border-radius: 3px;
-  background: #9013FE;
+  background: #003F5C;
   color: #fff;
   outline: none;
   font-size: 14px;
@@ -415,7 +430,7 @@ button:focus,
 
 .btn-white {
   background: white;
-  color: #9013FE;
+  color: #003F5C;
 }
 
 .btn-rounded-icon {
@@ -435,7 +450,7 @@ button:focus,
 }
 
 .main-nav .navbar-brand img {
-  max-width: 50px;
+  width: 50px;
 }
 
 .main-nav .navbar-nav .nav-item {
@@ -466,12 +481,12 @@ button:focus,
 }
 
 .main-nav .navbar-nav .nav-item.active .nav-link {
-  color: #9013FE;
+  color: #003F5C;
 }
 
 .main-nav .navbar-nav .nav-item.active .nav-link:before {
   content: "";
-  background: #9013FE;
+  background: #003F5C;
   width: 60%;
   height: 2px;
   position: absolute;
@@ -542,7 +557,7 @@ button:focus,
 .main-nav .dropdown .dropdown-menu .dropdown-item:focus,
 .main-nav .dropdown .dropdown-menu .dropdown-item:hover {
   background-color: transparent;
-  color: #9013FE;
+  color: #003F5C;
 }
 
 .main-nav .dropdown .dropdown-menu li:first-child {
@@ -573,7 +588,7 @@ button:focus,
 
 .dropdown-submenu.active>a,
 .dropdown-submenu:hover>a {
-  color: #9013FE;
+  color: #003F5C;
 }
 
 .dropleft .dropdown-menu,
@@ -611,7 +626,6 @@ button:focus,
 
 .footer-main {
   padding: 92px 0;
-  background: #1a1b1f;
 }
 
 @media (max-width: 768px) {
@@ -621,7 +635,7 @@ button:focus,
 }
 
 .footer-main .block img {
-  max-width: 150px;
+  width: 150px;
   margin-bottom: 20px;
 }
 
@@ -717,7 +731,7 @@ button:focus,
   height: 40px;
   line-height: 40px;
   text-align: center;
-  background: #9013FE;
+  background: #003F5C;
   color: #fff;
   transition: 0.3s;
   z-index: 999556;
@@ -744,8 +758,7 @@ button:focus,
 }
 
 .call-to-action-app h2,
-.call-to-action-app p,
-.call-to-action-app a {
+.call-to-action-app p {
   color: #fff !important;
 }
 
@@ -951,7 +964,7 @@ button:focus,
 
 .services .service-block i {
   font-size: 30px;
-  color: #9013FE;
+  color: #003F5C;
   margin-bottom: 15px;
   display: inline-block;
 }
@@ -1006,7 +1019,7 @@ button:focus,
 
 .service .service-box .service-item i {
   font-size: 20px;
-  color: #9013FE;
+  color: #003F5C;
   display: inline-block;
   margin-bottom: 10px;
 }
@@ -1132,7 +1145,7 @@ button:focus,
 .video-promo .content-block a i.video {
   height: 125px;
   width: 125px;
-  background: #9013FE;
+  background: #003F5C;
   display: inline-block;
   font-size: 40px;
   color: #fff;
@@ -1189,11 +1202,11 @@ button:focus,
 }
 
 .testimonial .testimonial-slider .owl-dots .owl-dot:hover span {
-  background: #9013FE;
+  background: #003F5C;
 }
 
 .testimonial .testimonial-slider .owl-dots .owl-dot.active span {
-  background: #9013FE;
+  background: #003F5C;
 }
 
 /* homepage 3 */
@@ -1212,7 +1225,7 @@ button:focus,
   width: 200%;
   height: 200%;
   border-radius: 50%;
-  background-image: linear-gradient(45deg, #2DBDE4 0%, #8317DB 100%);
+  background-image: linear-gradient(45deg, #FFA600 0%, #FF6361 100%);
 }
 
 .pull-top {
@@ -1364,7 +1377,7 @@ hr {
   display: block;
   height: 2px;
   border: 0;
-  border-top: 2px solid #9013FE;
+  border-top: 2px solid #003F5C;
   margin: 1em 0;
   padding: 0;
 }
@@ -1373,7 +1386,7 @@ hr {
   height: 80px;
   width: 80px;
   text-align: center;
-  background: #9013FE;
+  background: #003F5C;
 }
 
 .icon-box i {
@@ -1422,7 +1435,7 @@ hr {
 
 .team-sm .image .social-links {
   position: absolute;
-  background: #9013FE;
+  background: #003F5C;
   left: 0;
   right: 0;
   text-align: center;
@@ -1520,7 +1533,7 @@ hr {
 }
 
 .featured-article article.featured .content h2 a:hover {
-  color: #9013FE;
+  color: #003F5C;
 }
 
 .featured-article article.featured .content p {
@@ -1550,7 +1563,7 @@ hr {
 }
 
 .post-sm .post-title h3 a:hover {
-  color: #9013FE;
+  color: #003F5C;
 }
 
 .post-sm:hover .post-thumb img {
@@ -1687,13 +1700,13 @@ hr {
 }
 
 .pagination-nav ul.pagination li a:hover {
-  background-color: #9013FE;
+  background-color: #003F5C;
   color: #fff;
   border-color: transparent;
 }
 
 .pagination-nav ul.pagination .active a {
-  background-color: #9013FE;
+  background-color: #003F5C;
   color: #fff;
   border-color: transparent;
 }
@@ -1714,11 +1727,11 @@ hr {
 }
 
 .about .about-slider .owl-dots .owl-dot:hover span {
-  background: #9013FE;
+  background: #003F5C;
 }
 
 .about .about-slider .owl-dots .owl-dot.active span {
-  background: #9013FE;
+  background: #003F5C;
 }
 
 .create-stories .block img {
@@ -2241,5 +2254,3 @@ hr {
 .ml-form-recaptcha.ml-error iframe {
   border: solid 1px #ff0000;
 }
-
-/*# sourceMappingURL=style.css.map */
